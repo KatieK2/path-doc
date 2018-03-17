@@ -1,0 +1,153 @@
+/* html5doctor.com Reset Stylesheet */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, code, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+html { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body { line-height: 1.5; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+nav ul { list-style: none; }
+a { margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+ins { background-color: rgba(255, 255, 255, 0.4); text-decoration: none; }
+mark { background-color: rgba(255, 255, 255, 0.4); font-style: inherit; font-weight: bold; }
+del { text-decoration: line-through; }
+em { font-style: italic; }
+strong { font-weight: bold; }
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+table { border-collapse: collapse; border-spacing: 0; }
+hr { display: block; height: 1px; border: 0; border-top: 1px dashed white; width: 80%; margin: 1em auto; padding: 0; }
+input, select { vertical-align: middle; }
+h1 { font-size: 2em; line-height: 100%; margin-top: .5em; margin-bottom: .5em; }
+h2 { font-size: 1.5em; line-height: 128.6%; margin-top: 1.143em; }
+h3 { font-size: 1.25em; margin-top: 1.1em; }
+h4 { margin-top: .5em; }
+p, ul, ol, dl, pre, code, blockquote { font-size: 1em; }
+li { margin-bottom: .75%; }
+small, aside { font-size: 0.75em; }
+
+body {
+  color: #24292e;
+  background-color: #FFF;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+h1, h2, h3 {
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #eaecef;
+}
+
+header, footer {
+  background-color: #24292e;
+  color: #FFF;
+  text-align: center;
+  padding: 1rem;
+}
+
+header p, h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+main {
+  display: flex;
+  max-width: 55rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.flex-wrapper {
+  flex: 4;
+  padding-bottom: 1rem;
+}
+
+nav {
+  font-size: 85%;
+  padding: .5rem;
+  background-color: #4D5BC8;
+  overflow: auto;
+  border-right: thick solid #000;
+  flex: 1 1 10rem;
+  align-items: stretch;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+  background-color: #4D5BC8;
+  border: 1px solid #000;
+  margin: 0.5rem;
+}
+
+nav a {
+  color: white;
+  padding: .5rem;
+  display: block;
+}
+
+ul {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-left: 1rem;
+}
+ol {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-left: 1.7rem;
+}
+p {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+a {
+  color: #0366d6;
+}
+
+pre {
+  margin: .5rem 1.5rem;
+  color: white;
+  background-color: #515151;  
+  padding: .25rem .75rem;
+  max-width: 55vw;
+  overflow: scroll;
+}
+
+code, pre {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  background-color: rgba(27,31,35,0.05);
+  border-radius: 3px;
+}
+
+dt {
+  border-top: dashed white thin;
+  padding-top: .35em;
+  margin-top: .25em;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+dt:first-child {
+  border-top: none;
+}
+
+dd {
+  margin-bottom: 0.25em;
+}
+
+.note {
+  width: 80%;
+  border: thin solid #000;
+  background-color: #FCF4B2;
+  padding: .5rem;
+  font-size: small;
+  margin-bottom: .5rem;
+}
